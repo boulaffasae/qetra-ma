@@ -1,0 +1,22 @@
+uuid: 9abce54b-0118-42bf-a5cd-6698a6fe0ac6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qetra
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: qetra_messages
+theme: qetra
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

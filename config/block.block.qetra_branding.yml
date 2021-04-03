@@ -1,0 +1,25 @@
+uuid: 00b21b6a-e1a3-4d57-8935-6d0af5e1fb44
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qetra
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: qetra_branding
+theme: qetra
+region: navigation
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

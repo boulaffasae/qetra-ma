@@ -1,0 +1,22 @@
+uuid: 9f342d95-b9bf-4a54-bccb-b8901056e7b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qetra
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: qetra_breadcrumbs
+theme: qetra
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 5ff81a7c-1704-4747-94bb-67fa07145124
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qetra
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: qetra_local_tasks
+theme: qetra
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

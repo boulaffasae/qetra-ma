@@ -1,0 +1,22 @@
+{
+  "name": "qetra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpefile.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0"
+  }
+}
